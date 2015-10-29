@@ -15,8 +15,8 @@ Flappy.Start.prototype = {
   },
 
   preload: function () {
-    this.load.spritesheet('background','assets/background.png',1352,568);
-    this.load.spritesheet('flappy','assets/flappy.png',32,32);
+    this.load.spritesheet('background','assets/stuff.jpg',1024,768);
+    this.load.spritesheet('flappy','assets/flap.jpg',320,320);
     this.load.image('sign','assets/sign.png');
     this.load.image('button','assets/button.png');
     this.load.audio('start','assets/start.mp3');
